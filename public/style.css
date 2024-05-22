@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #cccccc;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.mode-switch {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+.vocabulary-section {
+  margin-bottom: 2rem;
+}
+
+.vocabulary-section h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #d9d9d9;
+  border-left: 6px solid #333333;
+}
+
+.vocabulary-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+.word {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.gender-m {
+  color: #1a1aff;
+}
+
+.gender-n {
+  color: #009933;
+}
+
+.gender-f {
+  color: #e60033;
+}
+
+.gender-p {
+  color: #ff9900;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.meanings {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.example {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: #666666;
+}
+
+.example-translation {
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 0.5rem;
+}
+
+.prefix-meaning {
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}

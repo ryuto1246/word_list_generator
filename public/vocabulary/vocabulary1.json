@@ -1,0 +1,571 @@
+[
+  {
+    "id": 1,
+    "word": ["Wie heißt du"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "君の名前は何ですか",
+        "en": "What's your name?"
+      }
+    ],
+    "example": "Wie heißt du?"
+  },
+  {
+    "id": 2,
+    "word": ["wie"],
+    "partOfSpeech": "adv",
+    "meanings": [
+      {
+        "ja": "どのように、どの程度",
+        "en": "how"  
+      }
+    ],
+    "example": "Wie heißt du?"
+  },
+  {
+    "id": 3,
+    "word": ["heißen"],
+    "partOfSpeech": "verb",
+    "meanings": [
+      {
+        "ja": "〜と呼ばれる、〜という名前である",
+        "en": "to be called"
+      }
+    ],
+    "example": "Ich heiße Miriam."
+  },
+  {
+    "id": 4,
+    "word": ["du"],
+    "partOfSpeech": "pron",
+    "meanings": [
+      {
+        "ja": "君",
+        "en": "you"
+      }
+    ],
+    "example": "Wie heißt du?"
+  },
+  {
+    "id": 5,
+    "word": ["ich"],
+    "partOfSpeech": "pron",
+    "meanings": [
+      {
+        "ja": "私",
+        "en": "I"
+      }
+    ],
+    "example": "Ich heiße Miriam."
+  },
+  {
+    "id": 6,
+    "word": ["Und wer bist du"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "君は誰ですか",
+        "en": "And who are you?"  
+      }
+    ],
+    "example": "Und wer bist du?"
+  },
+  {
+    "id": 7,
+    "word": ["bist"],
+    "partOfSpeech": "verb",
+    "meanings": [
+      {
+        "ja": "〜です",
+        "en": "are"
+      }
+    ],
+    "example": "Ich bin ..."
+  },
+  {
+    "id": 8,
+    "word": ["Ich bin"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "私は〜です",
+        "en": "I am"
+      }
+    ],
+    "example": "Ich bin ..."
+  },
+  {
+    "id": 9,
+    "word": ["sein"],
+    "partOfSpeech": "verb",
+    "meanings": [
+      {
+        "ja": "〜である",
+        "en": "to be"
+      }  
+    ],
+    "example": "Ich bin ..."
+  },
+  {
+    "id": 10,
+    "word": ["Hallo"],
+    "partOfSpeech": "interj",
+    "meanings": [
+      {
+        "ja": "こんにちは",
+        "en": "Hello"
+      }
+    ],
+    "example": "Hallo."
+  },
+  {
+    "id": 11,
+    "word": ["Ah"],
+    "partOfSpeech": "interj",
+    "meanings": [
+      {
+        "ja": "ああ、やあ",
+        "en": "Ah"  
+      }
+    ],
+    "example": "Ah, du bist ..."
+  },
+  {
+    "id": 12,
+    "word": ["Alphabet"],
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "ja": "アルファベット",
+        "en": "alphabet"
+      }
+    ],
+    "gender": ["neuter"],
+    "example": "Alphabet"
+  },
+  {
+    "id": 13,
+    "word": ["Entschuldigung"],
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "ja": "すみません、失礼します",
+        "en": "Sorry"
+      }
+    ],
+    "example": "Entschuldigung."
+  },
+  {
+    "id": 14,
+    "word": ["Wie bitte"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "はい？もう一度お願いします",
+        "en": "Pardon?"
+      }
+    ],
+    "example": "Wie bitte?"
+  },
+  {
+    "id": 15,
+    "word": ["Danke"],
+    "partOfSpeech": "interj",
+    "meanings": [
+      {
+        "ja": "ありがとう",
+        "en": "Thank you"
+      }
+    ],
+    "example": "Danke."
+  },
+  {
+    "id": 16,
+    "word": ["Mein Name ist"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "私の名前は〜です",
+        "en": "My name is"
+      }
+    ],
+    "example": "Mein Name ist ..."
+  },
+  {
+    "id": 17,
+    "word": ["mein"],
+    "partOfSpeech": "pron",
+    "meanings": [
+      {
+        "ja": "私の",
+        "en": "my" 
+      }
+    ],
+    "example": "Mein Name ist ..."
+  },
+  {
+    "id": 18,
+    "word": ["Name"],
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "ja": "名前",
+        "en": "name"
+      }
+    ],
+    "gender": ["masculine"],
+    "example": "Mein Name ist ..."
+  },
+  {
+    "id": 19,
+    "word": ["Vorname"],
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "ja": "名前",
+        "en": "first name"  
+      }
+    ],
+    "gender": ["masculine"],
+    "example": "Vorname"
+  },
+  {
+    "id": 20,
+    "word": ["Familienname"],
+    "partOfSpeech": "noun", 
+    "meanings": [
+      {
+        "ja": "姓、苗字",
+        "en": "last name"
+      }
+    ],
+    "gender": ["masculine"],
+    "example": "Familienname"
+  },
+  {
+    "id": 21,
+    "word": ["Wie geht es dir"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "調子はどうですか",
+        "en": "How are you?"
+      }
+    ],
+    "example": "Wie geht's dir?"
+  },
+  {
+    "id": 22,
+    "word": ["dir"],
+    "partOfSpeech": "pron",
+    "meanings": [
+      {
+        "ja": "君に",
+        "en": "you"
+      }
+    ],
+    "example": "Wie geht's dir?"
+  },
+  {
+    "id": 23,
+    "word": ["ankreuzen"],
+    "partOfSpeech": "verb",
+    "meanings": [
+      {
+        "ja": "チェックを入れる、×印をつける",
+        "en": "to mark with a cross"
+      }
+    ],
+    "example": "ankreuzen"
+  },
+  {
+    "id": 24,
+    "word": ["Super"],
+    "partOfSpeech": "adv",
+    "meanings": [
+      {
+        "ja": "すばらしい、最高の",
+        "en": "Great"
+      }
+    ],
+    "example": "Super!"
+  },
+  {
+    "id": 25,
+    "word": ["Sehr gut"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "とてもよい",
+        "en": "Very well"
+      }
+    ], 
+    "example": "Sehr gut, danke."
+  },
+  {
+    "id": 26,
+    "word": ["Gut"],
+    "partOfSpeech": "adv",
+    "meanings": [
+      {
+        "ja": "よい、上手な",
+        "en": "well"
+      }
+    ],
+    "example": "Gut, danke."
+  },
+  {
+    "id": 27,
+    "word": ["Es geht"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "まあまあです",
+        "en": "Not too bad"
+      }
+    ],
+    "example": "Es geht."
+  },
+  {
+    "id": 28,
+    "word": ["Nicht so gut"],
+    "partOfSpeech": "phrase", 
+    "meanings": [
+      {
+        "ja": "あまりよくない",
+        "en": "Not so well"
+      }
+    ],
+    "example": "Nicht so gut."
+  },
+  {
+    "id": 29,
+    "word": ["Und dir"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "君はどうですか",
+        "en": "What about you?"
+      }
+    ],
+    "example": "Und dir?"
+  },
+  {
+    "id": 30,
+    "word": ["Auch"],
+    "partOfSpeech": "adv",
+    "meanings": [
+      {
+        "ja": "同様に、〜もまた",
+        "en": "also"  
+      }
+    ],
+    "example": "Auch super."
+  },
+  {
+    "id": 31,
+    "word": ["Woher kommst du"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "出身はどこですか",
+        "en": "Where are you from?"
+      }
+    ],
+    "example": "Woher kommst du?"
+  },
+  {
+    "id": 32,
+    "word": ["woher"],
+    "partOfSpeech": "adv",
+    "meanings": [
+      {
+        "ja": "どこから",
+        "en": "from where"
+      }
+    ],
+    "example": "Woher kommst du?"
+  },
+  {
+    "id": 33,
+    "word": ["kommen"],
+    "partOfSpeech": "verb", 
+    "meanings": [
+      {
+        "ja": "来る",
+        "en": "to come"  
+      }
+    ],
+    "example": "Woher kommst du?"
+  },
+  {
+    "id": 34,
+    "word": ["aus"],
+    "partOfSpeech": "prep",
+    "meanings": [
+      {
+        "ja": "〜から",
+        "en": "from" 
+      }
+    ],
+    "example": "Woher kommst du?"
+  },
+  {
+    "id": 35,
+    "word": ["Eritrea"],
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "ja": "エリトリア",
+        "en": "Eritrea"
+      }
+    ],
+    "example": "Eritrea"
+  },
+  {
+    "id": 36,
+    "word": ["Deutschland"],
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "ja": "ドイツ",
+        "en": "Germany"
+      }
+    ],
+    "example": "Deutschland"
+  },
+  {
+    "id": 37,
+    "word": ["Wer ist das"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "あれは誰ですか",
+        "en": "Who is that?"
+      }
+    ],
+    "example": "Wer ist das?"
+  },
+  {
+    "id": 38,
+    "word": ["das"],
+    "partOfSpeech": "pron",
+    "meanings": [
+      {
+        "ja": "あれ、それ",
+        "en": "this, that" 
+      }
+    ],
+    "example": "Wer ist das?"
+  },
+  {
+    "id": 39,
+    "word": ["ist"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "これは〜です、あれは〜です",
+        "en": "This is" 
+      }
+    ],
+    "example": "ist ..."
+  },
+  {
+    "id": 40,
+    "word": ["Sie lernt Deutsch"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "彼女はドイツ語を学んでいます",
+        "en": "She is learning German"
+      }
+    ],
+    "example": "Sie lernt Deutsch."
+  },
+  {
+    "id": 41,
+    "word": ["lernen"],
+    "partOfSpeech": "verb",
+    "meanings": [
+      {
+        "ja": "学ぶ",
+        "en": "to learn" 
+      }
+    ],
+    "example": "Sie lernt Deutsch."
+  },
+  {
+    "id": 42,
+    "word": ["sie"],
+    "partOfSpeech": "pron",
+    "meanings": [
+      {
+        "ja": "彼女",
+        "en": "she"
+      }
+    ],
+    "example": "Sie lernt Deutsch."
+  },
+  {
+    "id": 43,
+    "word": ["er"],
+    "partOfSpeech": "pron",  
+    "meanings": [
+      {
+        "ja": "彼",
+        "en": "he"
+      }
+    ],
+    "example": "Er kommt aus der Schweiz."
+  },
+  {
+    "id": 44,
+    "word": ["Schweiz"],
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "ja": "スイス",
+        "en": "Switzerland"  
+      }
+    ],
+    "gender": ["feminine"],  
+    "example": "Er kommt aus der Schweiz."
+  },
+  {
+    "id": 45,
+    "word": ["Er kommt aus der Schweiz"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "彼はスイスから来ています",
+        "en": "He is from Switzerland" 
+      }
+    ],
+    "example": "Er kommt aus der Schweiz."
+  },
+  {
+    "id": 46,
+    "word": ["tschüs"],
+    "partOfSpeech": "interj",
+    "meanings": [
+      {
+        "ja": "さようなら",
+        "en": "bye"
+      }
+    ],
+    "example": "tschüs"
+  },
+  {
+    "id": 47,
+    "word": ["Auf Wiedersehen"],
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "さようなら",
+        "en": "Goodbye"
+      }
+    ],
+    "example": "Auf Wiedersehen."
+  }
+]
